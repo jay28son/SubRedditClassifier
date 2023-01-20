@@ -32,10 +32,12 @@ Collect data from the two subreddits and create a model that can predict where t
 
 
 ## Findings
+![plot](./images/UnigramStockMarket.png)
+![plot](./images/UnigramWsb.png)
 ![plot](./images/TrigramStockMarket.png)
 ![plot](./images/TrigramWsb.png)
 
-With the above plots you can see theres a big difference in the text used within each subreddit.
+With the above plots you can see theres a big difference in the text used within each subreddit. With that information we know that we can create a model that should be able to help classify our original data.
 
 ![plot](./images/ConfusionMatrix.png)
 
